@@ -169,3 +169,14 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+   ```plaintext
+   # Игнорировать виртуальное окружение
+   /venv
+
+   # Игнорировать файлы IDE
+   .idea
+
+   # Игнорировать кэш pytest
+   *.pytest_cache
